@@ -1,0 +1,28 @@
+.wiki-generic, .wiki{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white !important;
+  }
+.wiki-generic h1{
+  font-size: 40px;
+  margin: 25px 0;
+  font-weight: bold;
+}
+.wiki-generic ul li, .wiki-generic ol li{
+  font-size: 24px;
+  margin-left: 15px;
+}
+.wiki ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.wiki ul li{
+  margin-bottom: 5px;
+}
+.wiki ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+
+}
